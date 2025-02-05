@@ -1,0 +1,22 @@
+[package]
+name = "tramer"
+version = "0.1.0"
+edition = "2021"
+description = "A lightweight procedural macro library for profiling function execution time with customizable time units"
+license = "MIT"
+repository = "https://github.com/rakivo/tramer"
+keywords = ["profiling", "performance", "macro", "time"]
+categories = ["development-tools", "profiling"]
+readme = "README.md"
+authors = ["Mark Tyrkba <marktyrkba456@gmail.com>"]
+exclude = [".gitignore", "target/**/*"]
+
+[lib]
+name = "tramer"
+path = "lib.rs"
+proc-macro = true
+
+[dependencies]
+quote = "1.0"
+proc-macro2 = "1.0"
+syn = { version = "2.0", features = ["full"] }
