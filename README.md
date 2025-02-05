@@ -1,8 +1,8 @@
-# Tramer
+# tramer
 
 [![Crates.io](https://img.shields.io/crates/v/tramer.svg)](https://crates.io/crates/tramer)
 [![Documentation](https://docs.rs/tramer/badge.svg)](https://docs.rs/tramer)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yourusername/tramer/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rakivo/tramer/blob/main/LICENSE)
 
 ## Usage
 > add `tramer` to your `Cargo.toml`:
